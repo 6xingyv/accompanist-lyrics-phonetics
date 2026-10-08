@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android-jvm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Test and build
+        run: |
+          bash ./gradlew --no-daemon --max-workers=2 -PciPackaging=true \
+            check :runtime:jvmJar :runtime:bundleAndroidMainAar \
+            :data-mandarin:jvmJar :data-mandarin:bundleAndroidMainAar \
+            :data-cantonese:jvmJar :data-cantonese:bundleAndroidMainAar \
+            :data-japanese:jvmJar :data-japanese:bundleAndroidMainAar \
+            :device-benchmark:assembleDebug
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: android-jvm-test-reports
+          path: '**/build/reports/tests/'
+          retention-days: 14
+
+  ios:
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Test and build Apple targets
+        run: |
+          bash ./gradlew --no-daemon --max-workers=2 -PciPackaging=true \
+            :runtime:iosSimulatorArm64Test :runtime:compileKotlinIosArm64 \
+            :data-mandarin:compileKotlinIosArm64 :data-mandarin:compileKotlinIosSimulatorArm64 \
+            :data-cantonese:compileKotlinIosArm64 :data-cantonese:compileKotlinIosSimulatorArm64 \
+            :data-japanese:compileKotlinIosArm64 :data-japanese:compileKotlinIosSimulatorArm64
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: ios-test-reports
+          path: '**/build/reports/tests/'
+          retention-days: 14
