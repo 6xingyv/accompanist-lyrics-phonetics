@@ -1,0 +1,8 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+data/sources/
+data/prepared/
+*.hprof
+__pycache__/

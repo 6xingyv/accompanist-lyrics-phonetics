@@ -1,0 +1,12 @@
+{
+  "timestamp":"2026-10-06T10:02:45.700211200Z",
+  "platform":"Windows 11 amd64",
+  "java":"21.0.9+10-LTS",
+  "storage":"mmap",
+  "corpusSha256":"fbdbbcdec94e5dab4012f0e00373b3d5585bb84fd8ed905458e48cf4ec8c6004",
+  "firstParseNs":28204700,
+  "heapBefore":8892960,"heapAfterWorkload":42823056,"peakHeapObserved":39315944,
+  "memoryNote":"JVM heap observations include results and GC effects; not RSS or per-pack retained memory. Cold parses here may share warmed OS page cache. Use fresh processes/device tools for release comparisons.",
+  "metrics":[{"locale":"zh-CN","packBytes":5256476,"packSha256":"2344d0a59ec0c360cdbc6a98d2ae815f77a998fea2ca5fd8f57ccba193a3e591","processFirstParseNs":1260000,"hotMedianNs":29700,"hotP95Ns":84600,"correct":12,"total":12},{"locale":"zh-TW","packBytes":7433712,"packSha256":"854b10d9e5ed5602e3919ea76a8f42b37114fbd126ffa257b83ba29f0068d88d","processFirstParseNs":1937300,"hotMedianNs":18400,"hotP95Ns":28600,"correct":3,"total":3},{"locale":"yue-HK","packBytes":5552519,"packSha256":"f5d05ac73ca236287cb8a2aac9c09e356180b9f86818217de4200c5669fb3611","processFirstParseNs":927400,"hotMedianNs":21800,"hotP95Ns":34800,"correct":3,"total":3},{"locale":"ja-JP","packBytes":17828373,"packSha256":"93840847d87483423ebec4d70982da9016ddf0b8f4527b9163eaf3f41616c291","processFirstParseNs":2740000,"hotMedianNs":20700,"hotP95Ns":44600,"correct":6,"total":6}],
+  "failures":[]
+}

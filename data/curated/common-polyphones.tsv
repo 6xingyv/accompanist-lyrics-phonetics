@@ -1,0 +1,248 @@
+# Accompanist common polyphones and context additions v3. Apache-2.0; role=redistribute.
+# Manually authored and explicitly admitted on 2026-10-06. Source: accompanist-common-polyphones.
+# Canonical dictionary tones, selected senses; not a universal semantic disambiguator.
+# locale surface canonical-reading cost aligned-per-scalar
+zh-CN	着迷	zhao2 mi2	100	1
+zh-CN	着急	zhao2 ji2	100	1
+zh-CN	着火	zhao2 huo3	100	1
+zh-CN	睡着	shui4 zhao2	100	1
+zh-CN	着想	zhuo2 xiang3	100	1
+zh-CN	着凉	zhao2 liang2	100	1
+zh-CN	着陆	zhuo2 lu4	100	1
+zh-CN	执着	zhi2 zhuo2	100	1
+zh-CN	着手	zhuo2 shou3	100	1
+zh-CN	着重	zhuo2 zhong4	100	1
+zh-CN	着落	zhuo2 luo4	100	1
+zh-CN	看着	kan4 zhe5	100	1
+zh-CN	活着	huo2 zhe5	100	1
+zh-CN	音乐	yin1 yue4	100	1
+zh-CN	快乐	kuai4 le4	100	1
+zh-CN	乐器	yue4 qi4	100	1
+zh-CN	乐观	le4 guan1	100	1
+zh-CN	银行	yin2 hang2	100	1
+zh-CN	行业	hang2 ye4	100	1
+zh-CN	行人	xing2 ren2	100	1
+zh-CN	行走	xing2 zou3	100	1
+zh-CN	行李	xing2 li3	100	1
+zh-CN	行程	xing2 cheng2	100	1
+zh-CN	行列	hang2 lie4	100	1
+zh-CN	行为	xing2 wei2	100	1
+zh-CN	发行	fa1 xing2	100	1
+zh-CN	内行	nei4 hang2	100	1
+zh-CN	重新	chong2 xin1	100	1
+zh-CN	重复	chong2 fu4	100	1
+zh-CN	重要	zhong4 yao4	100	1
+zh-CN	重量	zhong4 liang4	100	1
+zh-CN	严重	yan2 zhong4	100	1
+zh-CN	长大	zhang3 da4	100	1
+zh-CN	长江	chang2 jiang1	100	1
+zh-CN	长久	chang2 jiu3	100	1
+zh-CN	成长	cheng2 zhang3	100	1
+zh-CN	还有	hai2 you3	100	1
+zh-CN	还是	hai2 shi4	100	1
+zh-CN	归还	gui1 huan2	100	1
+zh-CN	还乡	huan2 xiang1	100	1
+zh-CN	还给	huan2 gei3	100	1
+zh-CN	还好	hai2 hao3	100	1
+zh-CN	得到	de2 dao4	100	1
+zh-CN	获得	huo4 de2	100	1
+zh-CN	难得	nan2 de2	100	1
+zh-CN	觉得	jue2 de5	100	1
+zh-CN	值得	zhi2 de2	100	1
+zh-CN	得意	de2 yi4	100	1
+zh-CN	得体	de2 ti3	100	1
+zh-CN	睡觉	shui4 jiao4	100	1
+zh-CN	觉醒	jue2 xing3	100	1
+zh-CN	感觉	gan3 jue2	100	1
+zh-CN	收藏	shou1 cang2	100	1
+zh-CN	隐藏	yin3 cang2	100	1
+zh-CN	西藏	xi1 zang4	100	1
+zh-CN	宝藏	bao3 zang4	100	1
+zh-CN	藏书	cang2 shu1	100	1
+zh-CN	弹琴	tan2 qin2	100	1
+zh-CN	弹奏	tan2 zou4	100	1
+zh-CN	子弹	zi3 dan4	100	1
+zh-CN	弹药	dan4 yao4	100	1
+zh-CN	便宜	pian2 yi5	100	1
+zh-CN	方便	fang1 bian4	100	1
+zh-CN	便捷	bian4 jie2	100	1
+zh-CN	朝代	chao2 dai4	100	1
+zh-CN	朝夕	zhao1 xi1	100	1
+zh-CN	朝向	chao2 xiang4	100	1
+zh-CN	今朝	jin1 zhao1	100	1
+zh-CN	薄弱	bo2 ruo4	100	1
+zh-CN	薄荷	bo4 he5	100	1
+zh-CN	单薄	dan1 bo2	100	1
+zh-CN	薄纸	bao2 zhi3	100	1
+zh-CN	降落	jiang4 luo4	100	1
+zh-CN	投降	tou2 xiang2	100	1
+zh-CN	角色	jue2 se4	100	1
+zh-CN	角落	jiao3 luo4	100	1
+zh-CN	主角	zhu3 jue2	100	1
+zh-CN	调整	tiao2 zheng3	100	1
+zh-CN	调节	tiao2 jie2	100	1
+zh-CN	调查	diao4 cha2	100	1
+zh-CN	调动	diao4 dong4	100	1
+zh-CN	曲调	qu3 diao4	100	1
+zh-CN	歌曲	ge1 qu3	100	1
+zh-CN	弯曲	wan1 qu1	100	1
+zh-CN	曲折	qu1 zhe2	100	1
+zh-CN	数学	shu4 xue2	100	1
+zh-CN	数目	shu4 mu4	100	1
+zh-CN	种植	zhong4 zhi2	100	1
+zh-CN	种类	zhong3 lei4	100	1
+zh-CN	为你	wei4 ni3	100	1
+zh-CN	因为	yin1 wei4	100	1
+zh-CN	成为	cheng2 wei2	100	1
+zh-CN	测量	ce4 liang2	100	1
+zh-CN	力量	li4 liang4	100	1
+zh-CN	钻石	zuan4 shi2	100	1
+zh-CN	钻研	zuan1 yan2	100	1
+zh-CN	传奇	chuan2 qi2	100	1
+zh-CN	传记	zhuan4 ji4	100	1
+zh-CN	相似	xiang1 si4	100	1
+zh-CN	似的	shi4 de5	100	1
+zh-CN	落叶	luo4 ye4	100	1
+zh-CN	丢三落四	diu1 san1 la4 si4	100	1
+zh-CN	应当	ying1 dang1	100	1
+zh-CN	对应	dui4 ying4	100	1
+zh-CN	要求	yao1 qiu2	100	1
+zh-CN	需要	xu1 yao4	100	1
+zh-CN	扁舟	pian1 zhou1	100	1
+zh-CN	扁平	bian3 ping2	100	1
+zh-CN	停泊	ting2 bo2	100	1
+zh-CN	湖泊	hu2 po1	100	1
+zh-CN	使劲	shi3 jin4	100	1
+zh-CN	遒劲	qiu2 jing4	100	1
+zh-CN	吞咽	tun1 yan4	100	1
+zh-CN	咽喉	yan1 hou2	100	1
+zh-CN	呜咽	wu1 ye4	100	1
+zh-CN	结实	jie1 shi5	100	1
+zh-CN	结婚	jie2 hun1	100	1
+zh-CN	省略	sheng3 lve4	100	1
+zh-CN	反省	fan3 xing3	100	1
+zh-CN	都市	du1 shi4	100	1
+zh-CN	都是	dou1 shi4	100	1
+zh-CN	参加	can1 jia1	100	1
+zh-CN	人参	ren2 shen1	100	1
+zh-CN	参差	cen1 ci1	100	1
+zh-CN	切断	qie1 duan4	100	1
+zh-CN	一切	yi1 qie4	100	1
+zh-TW	著迷	zhao2 mi2	100	1
+zh-TW	著急	zhao1 ji2	100	1
+zh-TW	著火	zhao2 huo3	100	1
+zh-TW	睡著	shui4 zhao2	100	1
+zh-TW	著想	zhao2 xiang3	100	1
+zh-TW	著涼	zhao1 liang2	100	1
+zh-TW	著陸	zhuo2 lu4	100	1
+zh-TW	執著	zhi2 zhuo2	100	1
+zh-TW	著手	zhuo2 shou3	100	1
+zh-TW	著重	zhuo2 zhong4	100	1
+zh-TW	看著	kan4 zhe5	100	1
+zh-TW	活著	huo2 zhe5	100	1
+zh-TW	音樂	yin1 yue4	100	1
+zh-TW	快樂	kuai4 le4	100	1
+zh-TW	樂器	yue4 qi4	100	1
+zh-TW	銀行	yin2 hang2	100	1
+zh-TW	行業	hang2 ye4	100	1
+zh-TW	行人	xing2 ren2	100	1
+zh-TW	行李	xing2 li3	100	1
+zh-TW	行列	hang2 lie4	100	1
+zh-TW	行為	xing2 wei2	100	1
+zh-TW	重新	chong2 xin1	100	1
+zh-TW	重複	chong2 fu4	100	1
+zh-TW	重要	zhong4 yao4	100	1
+zh-TW	重量	zhong4 liang4	100	1
+zh-TW	長大	zhang3 da4	100	1
+zh-TW	長久	chang2 jiu3	100	1
+zh-TW	成長	cheng2 zhang3	100	1
+zh-TW	還有	hai2 you3	100	1
+zh-TW	歸還	gui1 huan2	100	1
+zh-TW	還鄉	huan2 xiang1	100	1
+zh-TW	得到	de2 dao4	100	1
+zh-TW	難得	nan2 de2	100	1
+zh-TW	值得	zhi2 de2	100	1
+zh-TW	睡覺	shui4 jiao4	100	1
+zh-TW	覺醒	jue2 xing3	100	1
+zh-TW	收藏	shou1 cang2	100	1
+zh-TW	隱藏	yin3 cang2	100	1
+zh-TW	西藏	xi1 zang4	100	1
+zh-TW	寶藏	bao3 zang4	100	1
+zh-TW	彈琴	tan2 qin2	100	1
+zh-TW	子彈	zi3 dan4	100	1
+zh-TW	方便	fang1 bian4	100	1
+zh-TW	便宜	pian2 yi2	100	1
+zh-TW	朝代	chao2 dai4	100	1
+zh-TW	朝夕	zhao1 xi4	100	1
+zh-TW	薄弱	bo2 ruo4	100	1
+zh-TW	降落	jiang4 luo4	100	1
+zh-TW	投降	tou2 xiang2	100	1
+zh-TW	角色	jiao3 se4	100	1
+zh-TW	主角	zhu3 jiao3	100	1
+zh-TW	調整	tiao2 zheng3	100	1
+zh-TW	調查	diao4 cha2	100	1
+zh-TW	曲調	qu3 diao4	100	1
+zh-TW	彎曲	wan1 qu1	100	1
+zh-TW	數學	shu4 xue2	100	1
+zh-TW	種植	zhong4 zhi2	100	1
+zh-TW	為你	wei4 ni3	100	1
+zh-TW	因為	yin1 wei4	100	1
+zh-TW	成為	cheng2 wei2	100	1
+zh-TW	鑽石	zuan4 shi2	100	1
+zh-TW	鑽研	zuan1 yan2	100	1
+zh-TW	傳記	zhuan4 ji4	100	1
+zh-TW	似的	si4 de5	100	1
+zh-TW	湖泊	hu2 bo2	100	1
+zh-TW	反省	fan3 xing3	100	1
+zh-TW	人參	ren2 shen1	100	1
+zh-TW	參差	cen1 ci1	100	1
+zh-TW	一切	yi1 qie4	100	1
+
+# Consolidated original context additions; same readings, costs and regional scope.
+zh-CN	你好	ni3 hao3	100	1
+zh-TW	你好	ni3 hao3	100	1
+zh-TW	行走	xing2 zou3	100	1
+zh-CN	重庆	chong2 qing4	100	1
+zh-TW	重慶	chong2 qing4	100	1
+zh-TW	長江	chang2 jiang1	100	1
+zh-CN	知道	zhi1 dao4	100	1
+zh-TW	知道	zhi1 dao4	100	1
+zh-CN	中国	zhong1 guo2	100	1
+zh-TW	中國	zhong1 guo2	100	1
+zh-CN	我爱你	wo3 ai4 ni3	100	1
+zh-TW	我愛你	wo3 ai4 ni3	100	1
+zh-CN	台湾	tai2 wan1	100	1
+zh-TW	台灣	tai2 wan1	100	1
+zh-CN	垃圾	la1 ji1	100	1
+zh-TW	垃圾	le4 se4	100	1
+zh-CN	重重	chong2 chong2	100	1
+zh-CN	重重	zhong4 zhong4	100	1
+
+# Original nominal calendar expressions; Japanese words have no per-kanji alignment.
+# 一日 retains both duration and calendar readings at equal cost.
+ja-JP	一日	いちにち	1000	0
+ja-JP	一日	ついたち	1000	0
+ja-JP	二日	ふつか	1000	0
+ja-JP	三日	みっか	1000	0
+ja-JP	四日	よっか	1000	0
+ja-JP	五日	いつか	1000	0
+ja-JP	六日	むいか	1000	0
+ja-JP	七日	なのか	1000	0
+ja-JP	八日	ようか	1000	0
+ja-JP	九日	ここのか	1000	0
+ja-JP	十日	とおか	1000	0
+ja-JP	十四日	じゅうよっか	1000	0
+ja-JP	二十日	はつか	1000	0
+ja-JP	二十四日	にじゅうよっか	1000	0
+ja-JP	一月	いちがつ	1000	0
+ja-JP	二月	にがつ	1000	0
+ja-JP	三月	さんがつ	1000	0
+ja-JP	四月	しがつ	1000	0
+ja-JP	五月	ごがつ	1000	0
+ja-JP	六月	ろくがつ	1000	0
+ja-JP	七月	しちがつ	1000	0
+ja-JP	八月	はちがつ	1000	0
+ja-JP	九月	くがつ	1000	0
+ja-JP	十月	じゅうがつ	1000	0
+ja-JP	十一月	じゅういちがつ	1000	0
+ja-JP	十二月	じゅうにがつ	1000	0

@@ -1,0 +1,18 @@
+{
+  "common-polyphones.tsv": {
+    "source_id": "accompanist-common-polyphones",
+    "author": "Accompanist contributors",
+    "license": "Apache-2.0",
+    "role": "redistribute",
+    "version": 3,
+    "admitted": "2026-10-06",
+    "sha256": "4106448d278666cab6e00a34e33a41780f2e1c4599aef12d5ea58071c4e54e23",
+    "entries": {
+      "zh-CN": 135,
+      "zh-TW": 78,
+      "ja-JP": 26
+    },
+    "method": "Manually authored, explicitly reviewed release additions; regression overlap disclosed in the project NOTICE",
+    "changes": "Added 26 manually authored nominal calendar readings, with both readings of 一日 retained at equal cost. Chinese v2 entries are unchanged. Japanese entries use pinned IPADIC ordinary-noun connection IDs 1285; no corpus sentences, annotations or dictionary data were imported into this owned source."
+  }
+}

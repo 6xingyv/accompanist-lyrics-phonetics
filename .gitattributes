@@ -1,0 +1,5 @@
+*.sh text eol=lf
+gradlew text eol=lf
+data/licenses/** -text
+data/curated/** -text
+*.lpd -text

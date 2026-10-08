@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Phonetics benchmark" android:allowBackup="false" />
+    <instrumentation
+        android:name="com.mocharealm.accompanist.lyrics.phonetics.devicebenchmark.PhoneticsInstrumentation"
+        android:targetPackage="com.mocharealm.accompanist.phonetics.benchmark" />
+</manifest>

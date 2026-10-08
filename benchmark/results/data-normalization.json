@@ -1,0 +1,130 @@
+{
+  "cedpane": {
+    "locale": "zh-CN",
+    "source_id": "cedpane",
+    "input_records": 84196,
+    "admitted_records": 84150,
+    "unique_surface_readings": 84008,
+    "distinct_surfaces": 84000,
+    "explicit_sandhi_records_normalized": 2,
+    "rejected_records": 46,
+    "rejection_reasons": {
+      "No unique syllable alignment": 18,
+      "Non-Han surface": 1,
+      "Unsupported reading notation": 27
+    },
+    "rejection_examples": [
+      {
+        "surface": "一夥",
+        "reading": "yīhuǒ(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "铃儿",
+        "reading": "língr",
+        "reason": "No unique syllable alignment"
+      },
+      {
+        "surface": "大伙",
+        "reading": "dàhuǒ(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "大夥",
+        "reading": "dàhuǒ(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "大事儿",
+        "reading": "dàshìr",
+        "reason": "No unique syllable alignment"
+      },
+      {
+        "surface": "捆成捆",
+        "reading": "kǔnchéng kǔn(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "箱盖",
+        "reading": "xiānggài(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "脱把",
+        "reading": "tuōbǎ(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "缸口",
+        "reading": "gāngkǒu(r)",
+        "reason": "Unsupported reading notation"
+      },
+      {
+        "surface": "半人马座A星系",
+        "reading": "Bànrénmǎzuò A Xīngxì",
+        "reason": "Non-Han surface"
+      },
+      {
+        "surface": "换个过法儿",
+        "reading": "huàn ge guòfǎr",
+        "reason": "No unique syllable alignment"
+      },
+      {
+        "surface": "办事儿",
+        "reading": "bànshìr",
+        "reason": "No unique syllable alignment"
+      }
+    ]
+  },
+  "mcbopomofo": {
+    "locale": "zh-TW",
+    "source_id": "mcbopomofo",
+    "input_records": 145603,
+    "admitted_records": 145596,
+    "unique_surface_readings": 143341,
+    "distinct_surfaces": 140012,
+    "explicit_sandhi_records_normalized": 3231,
+    "rejected_records": 7,
+    "rejection_reasons": {
+      "Non-Han surface": 5,
+      "Unsupported Bopomofo final: 'ㄧㄜ'": 2
+    },
+    "rejection_examples": [
+      {
+        "surface": "一九九○",
+        "reading": "ㄧ ㄐㄧㄡˇ ㄐㄧㄡˇ ㄌㄧㄥˊ",
+        "reason": "Non-Han surface"
+      },
+      {
+        "surface": "一四〇",
+        "reading": "ㄧ ㄙˋ ㄌㄧㄥˊ",
+        "reason": "Non-Han surface"
+      },
+      {
+        "surface": "二〇二",
+        "reading": "ㄦˋ ㄌㄧㄥˊ ㄦˋ",
+        "reason": "Non-Han surface"
+      },
+      {
+        "surface": "松嶋菜々子",
+        "reading": "ㄙㄨㄥ ㄉㄠˇ ㄘㄞˋ ㄘㄞˋ ㄗˇ",
+        "reason": "Non-Han surface"
+      },
+      {
+        "surface": "玩意兒",
+        "reading": "ㄨㄢˊ ㄧㄜˋ ㄦ",
+        "reason": "Unsupported Bopomofo final: 'ㄧㄜ'"
+      },
+      {
+        "surface": "玩意兒",
+        "reading": "ㄨㄢˊ ㄧㄜˋ ㄦˊ",
+        "reason": "Unsupported Bopomofo final: 'ㄧㄜ'"
+      },
+      {
+        "surface": "菜々子",
+        "reading": "ㄘㄞˋ ㄘㄞˋ ㄗˇ",
+        "reason": "Non-Han surface"
+      }
+    ]
+  }
+}

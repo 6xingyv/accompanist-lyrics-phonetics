@@ -1,0 +1,26 @@
+# role=validation-only; original short examples; NEVER imported by data preparation/compiler.
+# id language-tag input expected-numbered-ascii (spaces ignored for reading accuracy)
+cn-context-1	zh-CN	我在银行行走	wo3 zai4 yin2 hang2 xing2 zou3
+cn-context-2	zh-CN	音乐让我快乐	yin1 yue4 rang4 wo3 kuai4 le4
+cn-context-3	zh-CN	重庆很重要	chong2 qing4 hen3 zhong4 yao4
+cn-context-4	zh-CN	长大后看长江	zhang3 da4 hou4 kan4 chang2 jiang1
+cn-region-1	zh-CN	垃圾角色	la1 ji1 jue2 se4
+tw-region-1	zh-TW	垃圾角色	le4 se4 jiao3 se4
+tw-context-1	zh-Hant-TW	銀行音樂	yin2 hang2 yin1 yue4
+cn-holdout-1	zh-CN	春天的天空	chun1 tian1 de5 tian1 kong1
+cn-holdout-2	zh-CN	山川大海	shan1 chuan1 da4 hai3
+cn-holdout-3	zh-CN	明天回家	ming2 tian1 hui2 jia1
+cn-holdout-4	zh-CN	月光温柔	yue4 guang1 wen1 rou2
+tw-holdout-1	zh-TW	月光溫柔	yue4 guang1 wen1 rou2
+yue-context-1	yue-HK	銀行音樂	ngan4 hong4 jam1 ngok6
+yue-holdout-1	yue-HK	香港	hoeng1 gong2
+yue-holdout-2	yue-HK	你好	nei5 hou2
+ja-holdout-1	ja	日本語	n i h o n g o
+ja-holdout-2	ja	私は歌う	w a t a s h i w a u t a u
+ja-holdout-3	ja	明日は晴れ	a s h i t a w a h a r e
+ja-kana-1	ja	きゃっと	k y a t t o
+ja-kana-2	ja	ｶﾞｯﾂﾎﾟｰｽﾞ	g a t t s u p o o z u
+ja-kana-3	ja	しんよう	s h i n ' y o u
+mixed-1	zh-CN	我爱你 Love ありがとう	wo3 ai4 ni3 Love arigatou
+ascii-1	zh-CN	Hello 2026!	Hello 2026!
+punctuation-1	zh-CN	你好。？！	ni3 hao3.?!

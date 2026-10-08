@@ -1,0 +1,56 @@
+{
+  "role": "validation-only",
+  "reviewed": "2026-10-06",
+  "scope": "86 manually selected web-review candidates outside the 195 owned regressions. Pronunciation facts only; no definitions, example sentences or bulk extraction. Not representative lyrics accuracy.",
+  "release_admission": "None. This file and its TSV are never input to prepare_data.py or the compiler. Reference attribution does not authorize dictionary redistribution or Apache relicensing.",
+  "references": [
+    {
+      "id": "shanghai-pronunciation-review",
+      "url": "https://edu.sh.gov.cn/yywz_gfbz_gypth/20150712/0015-yywz_1999.html",
+      "publisher": "Shanghai Municipal Education Commission",
+      "role": "validation-only",
+      "release_license": "Not established; not admitted",
+      "cases": "web-cn-001..006, 010..044, except references separately listed below",
+      "scope": "Multi-reading target-character/sense facts from the published review table; the table is not a complete pronunciation dictionary. Remaining syllables and neutral-tone annotations are manually checked separately where needed. Historical review material, not a claim about a new 2026 standard."
+    },
+    {
+      "id": "moe-gf0015-2010",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201010/W020220124393643101738.pdf",
+      "publisher": "PRC Ministry of Education",
+      "role": "validation-only",
+      "release_license": "Not established; not admitted",
+      "cases": ["web-cn-007"]
+    },
+    {
+      "id": "nau-polyphone-teaching",
+      "url": "https://wxy.nau.edu.cn/2014/0309/c779a6452/page.htm",
+      "publisher": "Nanjing Audit University, School of Humanities",
+      "role": "validation-only",
+      "release_license": "Not established; not admitted",
+      "cases": "web-cn-008, 033, 035, 045..070",
+      "scope": "Only the stated multi-reading character/sense; other syllables are manually specified."
+    },
+    {
+      "id": "sdmc-pronunciation-teaching",
+      "url": "https://jnwyjxb.sdmc.edu.cn/info/1068/1370.htm",
+      "publisher": "Shandong Medical College, Foreign Language Teaching Department",
+      "role": "validation-only",
+      "release_license": "Not established; not admitted",
+      "cases": "web-cn-009, 002, 006, 071..080"
+    },
+    {
+      "id": "moe-tw-concised",
+      "publisher": "Taiwan Ministry of Education, Concised Mandarin Chinese Dictionary",
+      "role": "validation-only",
+      "release_license": "CC-BY-ND-3.0-TW; not admitted for transformed dictionary redistribution",
+      "cases": {
+        "web-tw-001": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=24118&la=1&powerMode=0",
+        "web-tw-002": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3667",
+        "web-tw-003": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33924&la=0&powerMode=0",
+        "web-tw-004": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13709&la=0&powerMode=0",
+        "web-tw-005": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29497&la=0&powerMode=0",
+        "web-tw-006": "https://dict.concised.moe.edu.tw/searchR.jsp?ID=116&ID=3&ID=5&la=0&powerMode=0&word=%E7%A9%BA"
+      }
+    }
+  ]
+}

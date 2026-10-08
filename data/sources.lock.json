@@ -1,0 +1,68 @@
+{
+  "Unihan-17.0.0.zip": {
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+    "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+    "license": "Unicode-3.0",
+    "role": "redistribute"
+  },
+  "Unicode-LICENSE.txt": {
+    "url": "https://www.unicode.org/license.txt",
+    "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+    "license": "Unicode-3.0",
+    "role": "redistribute"
+  },
+  "rime-cantonese.zip": {
+    "url": "https://codeload.github.com/rime/rime-cantonese/zip/259f0e48bba840c3a2e0d117539e96937f3d89bc",
+    "sha256": "9ef08e9529e2afbd9b0f84917e5194d8e7e00808cddcb4769fd91e5df13ef96f",
+    "license": "CC-BY-4.0",
+    "role": "redistribute"
+  },
+  "mecab.zip": {
+    "url": "https://codeload.github.com/taku910/mecab/zip/61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+    "sha256": "cb654df442350c9913f29a00778aa162cdfcf39ed29c21ab4cdd2e20de0a2cba",
+    "license": "LicenseRef-NAIST-ICOT",
+    "role": "redistribute"
+  },
+  "CedPane.tsv": {
+    "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/cedpane.tsv",
+    "sha256": "61789186ffe828274be650266d36e7fe41bd4b147877555ec7980328225cd3f3",
+    "license": "LicenseRef-CedPane-PublicDomain",
+    "role": "redistribute"
+  },
+  "McBopomofo-BPMFMappings.txt": {
+    "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/BPMFMappings.txt",
+    "sha256": "394f3946754ebdd9d5e503f0f94c6977e5e19bd7cab21b4b18a6ea0167e00171",
+    "license": "MIT AND BSD-3-Clause",
+    "role": "redistribute"
+  },
+  "CedPane-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/LICENSE",
+    "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+    "license": "Unlicense",
+    "role": "redistribute"
+  },
+  "CedPane-README.md": {
+    "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/README.md",
+    "sha256": "3fffde19f9d20000b6f554fd36bb1c120abe4459b9a3d29f89411be8e8f7bc43",
+    "license": "LicenseRef-CedPane-Readme",
+    "role": "redistribute"
+  },
+  "McBopomofo-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/LICENSE.txt",
+    "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72",
+    "license": "MIT",
+    "role": "redistribute"
+  },
+  "McBopomofo-Data-README.md": {
+    "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/README.md",
+    "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e",
+    "license": "MIT",
+    "role": "redistribute"
+  },
+  "libtabe-tsi-COPYING.txt": {
+    "url": "https://raw.githubusercontent.com/kcwu/libtabe/ea382a829c916f2cceda2022afdf8e8471e6e7b5/tsi-src/COPYING",
+    "sha256": "efe0869f6626da81c78537da381117fe64cfe24ac50d2f2b702d90d6d9a81bd4",
+    "license": "BSD-3-Clause",
+    "role": "redistribute"
+  }
+}

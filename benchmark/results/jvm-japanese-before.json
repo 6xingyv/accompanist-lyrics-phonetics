@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-06T16:18:12.596495600Z",
+  "platform": "Windows 11 amd64",
+  "java": "21.0.9+10-LTS",
+  "storage": "mmap",
+  "corpusSha256": "fbdbbcdec94e5dab4012f0e00373b3d5585bb84fd8ed905458e48cf4ec8c6004",
+  "firstParseNs": 27560301,
+  "heapBefore": 8388608,
+  "heapAfterWorkload": 44240448,
+  "peakHeapObserved": 43461096,
+  "memoryNote": "JVM heap observations include results and GC effects; not RSS or per-pack retained memory. Cold parses here may share warmed OS page cache. Use fresh processes/device tools for release comparisons.",
+  "metrics": [
+    {
+      "locale": "zh-CN",
+      "packBytes": 5260805,
+      "packSha256": "11d52eae3714f9793b315711db0945b19698a7a07694f225b653f08147e06281",
+      "processFirstParseNs": 1590400,
+      "hotMedianNs": 42999,
+      "hotP95Ns": 116999,
+      "correct": 12,
+      "total": 12
+    },
+    {
+      "locale": "zh-TW",
+      "packBytes": 7433721,
+      "packSha256": "246d03591ec3e45cf9db722f95c81e3943aedd0df8174f16c489e1ce55220cea",
+      "processFirstParseNs": 1390200,
+      "hotMedianNs": 24500,
+      "hotP95Ns": 64500,
+      "correct": 3,
+      "total": 3
+    },
+    {
+      "locale": "yue-HK",
+      "packBytes": 5552519,
+      "packSha256": "f5d05ac73ca236287cb8a2aac9c09e356180b9f86818217de4200c5669fb3611",
+      "processFirstParseNs": 851001,
+      "hotMedianNs": 22500,
+      "hotP95Ns": 37401,
+      "correct": 3,
+      "total": 3
+    },
+    {
+      "locale": "ja-JP",
+      "packBytes": 17829073,
+      "packSha256": "26000679cb26a8308f57699f1e036c658ccafbb0c45c48ad28cfa59f347c38dd",
+      "processFirstParseNs": 9805400,
+      "hotMedianNs": 18800,
+      "hotP95Ns": 50800,
+      "correct": 6,
+      "total": 6
+    }
+  ],
+  "failures": [],
+  "libraryVersion": "0.1.6",
+  "artifactSha256": {
+    "annotations-13.0.jar": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+    "benchmark-0.1.6.jar": "b69c34140652a474792ced1f59d8920d5628e141d992879bbcfe931158a5aaec",
+    "data-cantonese-jvm-0.1.6.jar": "ea23ce91a347842767ec98e0c745b297cbd1bf765dad81f1355dfb5bd5872bcf",
+    "data-japanese-jvm-0.1.6.jar": "def6861a3497048cf2077c094ffde8c8b308c337c6a1f80bd8fd8f42dd8e23b1",
+    "data-mandarin-jvm-0.1.6.jar": "3dcba44c257ff90b885976195c7445c283a8bbb5985154f1019835807e0a485a",
+    "kotlin-stdlib-2.4.10.jar": "4ec0293bc3751423b203f1d8493251c57c42e73eb6377a6b8560d0974ff0a6df",
+    "runtime-jvm-0.1.6.jar": "e55588969a622954ba23b0584c8a7eeb235b5638e52b9d102fa4a0b73381bcc3"
+  }
+}

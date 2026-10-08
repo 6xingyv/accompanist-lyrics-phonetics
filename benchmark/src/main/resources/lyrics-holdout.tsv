@@ -1,0 +1,36 @@
+# role=held-out; version=1; original lyrics-style sentences, self-annotated before this iteration's predictions; Apache-2.0; not real-song accuracy or independent human annotation; NEVER release dictionary input
+# id locale text accepted Latin ASCII readings (|| separates alternatives) optional start:end:BCP47 hints
+cn01	zh-CN	夜色越深，我越想念你	ye4 se4 yue4 shen1,wo3 yue4 xiang3 nian4 ni3
+cn02	zh-CN	风吹过窗前，留下你的声音	feng1 chui1 guo4 chuang1 qian2,liu2 xia4 ni3 de5 sheng1 yin1
+cn03	zh-CN	雨停以后，我们继续往前走	yu3 ting2 yi3 hou4,wo3 men5 ji4 xu4 wang3 qian2 zou3
+cn04	zh-CN	如果星光还在，请陪我到天明	ru2 guo3 xing1 guang1 hai2 zai4,qing3 pei2 wo3 dao4 tian1 ming2
+cn05	zh-CN	那封没有寄出的信，藏在我的心里	na4 feng1 mei2 you3 ji4 chu1 de5 xin4,cang2 zai4 wo3 de5 xin1 li3
+cn06	zh-CN	站在陌生的街头，我听见熟悉的歌	zhan4 zai4 mo4 sheng1 de5 jie1 tou2,wo3 ting1 jian4 shu2 xi1 de5 ge1
+cn07	zh-CN	每次闭上眼睛，都能看见你的笑容	mei3 ci4 bi4 shang4 yan3 jing1,dou1 neng2 kan4 jian4 ni3 de5 xiao4 rong2
+cn08	zh-CN	就算世界安静下来，我也不会忘记你	jiu4 suan4 shi4 jie4 an1 jing4 xia4 lai2,wo3 ye3 bu4 hui4 wang4 ji4 ni3
+tw01	zh-TW	月光落在窗邊，我還在等你	yue4 guang1 luo4 zai4 chuang1 bian1,wo3 hai2 zai4 deng3 ni3
+tw02	zh-TW	風從遠方吹來，帶著新的消息	feng1 cong2 yuan3 fang1 chui1 lai2,dai4 zhe5 xin1 de5 xiao1 xi2
+tw03	zh-TW	雨水洗過街道，也洗不掉回憶	yu3 shui3 xi3 guo4 jie1 dao4,ye3 xi3 bu4 diao4 hui2 yi4
+tw04	zh-TW	你說明天再見，我就相信明天	ni3 shuo1 ming2 tian1 zai4 jian4,wo3 jiu4 xiang1 xin4 ming2 tian1
+tw05	zh-TW	我們走過人海，終於找到彼此	wo3 men5 zou3 guo4 ren2 hai3,zhong1 yu2 zhao3 dao4 bi3 ci3
+tw06	zh-TW	當城市慢慢睡去，我仍聽見心跳	dang1 cheng2 shi4 man4 man4 shui4 qu4,wo3 reng2 ting1 jian4 xin1 tiao4
+tw07	zh-TW	把故事留在歌裡，讓時間帶你回來	ba3 gu4 shi4 liu2 zai4 ge1 li3,rang4 shi2 jian1 dai4 ni3 hui2 lai2
+tw08	zh-TW	請別急著離開，陪我看最後的星光	qing3 bie2 ji2 zhe5 li2 kai1,pei2 wo3 kan4 zui4 hou4 de5 xing1 guang1
+hk01	yue-HK	星光照亮我嘅心	sing1 gwong1 ziu3 loeng6 ngo5 ge3 sam1
+hk02	yue-HK	今晚我想聽你唱歌	gam1 maan5 ngo5 soeng2 teng1 nei5 coeng3 go1||gam1 maan5 ngo5 soeng2 ting1 nei5 coeng3 go1
+hk03	yue-HK	雨停之後再出發	jyu5 ting4 zi1 hau6 zoi3 ceot1 faat3
+hk04	yue-HK	街燈陪我慢慢行	gaai1 dang1 pui4 ngo5 maan6 maan6 haang4
+hk05	yue-HK	你嘅聲音留喺耳邊	nei5 ge3 sing1 jam1 lau4 hai2 ji5 bin1
+hk06	yue-HK	明天我會等你返嚟	ming4 tin1 ngo5 wui5 dang2 nei5 faan1 lai4
+hk07	yue-HK	風中有未講完嘅話	fung1 zung1 jau5 mei6 gong2 jyun4 ge3 waa6
+hk08	yue-HK	我哋一齊望住天空	ngo5 dei6 jat1 cai4 mong6 zyu6 tin1 hung1
+ja01	ja-JP	雨のあとに虹が見える	ame no ato ni niji ga mieru
+ja02	ja-JP	君の声を忘れない	kimi no koe o wasurenai
+ja03	ja-JP	静かな夜に星を数える	shizuka na yoru ni hoshi o kazoeru
+ja04	ja-JP	遠くの街まで風が届く	tooku no machi made kaze ga todoku
+ja05	ja-JP	朝の光が窓に揺れる	asa no hikari ga mado ni yureru
+ja06	ja-JP	手を伸ばせば空に届く	te o nobaseba sora ni todoku
+ja07	ja-JP	誰もいない道を歩く	dare mo inai michi o aruku
+ja08	ja-JP	明日またここで会おう	ashita mata koko de aou||asu mata koko de aou
+mix01	zh-CN	明天また会おう	ming2 tian1 mata aou	0:2:zh-CN,2:7:ja
+mix02	ja-JP	君と你好	kimi to ni3 hao3	0:2:ja,2:4:zh-CN

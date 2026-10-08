@@ -1,0 +1,359 @@
+{
+  "role": "validation-only",
+  "library_version": "0.1.3",
+  "sources": {
+    "kwdlc": {
+      "url": "https://codeload.github.com/ku-nlp/KWDLC/zip/c6ae49d29eca4e1134c6676d682adf5ed6a25f5a",
+      "sha256": "96c500d57ea8f079fd45241c8be3d6bdb1535188d119c63c28c630bdf95cf066",
+      "terms": "https://github.com/ku-nlp/KWDLC/blob/c6ae49d29eca4e1134c6676d682adf5ed6a25f5a/README.md#notes",
+      "use": "Publisher's research corpus. Underlying Web-text permission was not obtained; raw text is not redistributed here or admitted to release data."
+    },
+    "ndl": {
+      "url": "https://lab.ndl.go.jp/dataset/huriganacorpus/aozora_dataset.zip",
+      "sha256": "8df5aa0722686cf6c9a2a87f4786ceb5453be8c7a7fe1259c457b1f261215500",
+      "terms": "https://github.com/ndl-lab/huriganacorpus-aozora/blob/c20b60bc2a6fcdfd3964b71ed9e3a46c6e330e8d/LICENSE",
+      "use": "Publisher's No Copyright declaration with jurisdiction/moral-rights caveats retained at the terms URL. Local validation only; no release dictionary admission."
+    }
+  },
+  "sampling": {
+    "kwdlc": {
+      "official_test_documents": 700,
+      "sentences_with_han": 2159,
+      "alternative_readings": 0
+    },
+    "ndl": {
+      "corpus_books": 1944,
+      "corpus_authors": 115,
+      "selected_authors": 80,
+      "sample_books": 140,
+      "sentences": 3423,
+      "filters": {
+        "no_han": 9131,
+        "missing_text": 140,
+        "length_outside_5_160": 2108,
+        "source_alignment_mismatch": 9597
+      },
+      "sampling": "SHA256 seed Accompanist-ja-v1: first 80 authors, up to 2 books per author, up to 25 aligned Han-containing 5-160 scalar sentences per book; ranked without model predictions"
+    }
+  },
+  "input_sha256": "a4d135e1fd1127f193b62691fe6622ef66b88d2ac9eb282f05a35b3e1fed7b87",
+  "gold_sha256": "4b90528b255df08ee5ebb93c05752b97fd687fb090dc01ebfcd79d202df5fc1b",
+  "predictions_sha256": "29a41198ce848e287ca4bdd12f84782b6cd09b2fd03c0736471814776ade23b5",
+  "japanese_pack": {
+    "bytes": 17828373,
+    "sha256": "93840847d87483423ebec4d70982da9016ddf0b8f4527b9163eaf3f41616c291"
+  },
+  "runtime_sources_sha256": "5ed8e96245db41bc52aa23a3cfb3804da2be8e1e15705bf6ceb15e60f18da43b",
+  "methods": [
+    "Full sentences parsed; shared gold/predicted UTF-16 boundaries define coarsened reading groups, without guessed kanji alignment.",
+    "Kana normalization uses NFKC and hiragana. Corpus long marks accept the matching vowel (including ou/ei spellings); JUMAN particle written/spoken readings are both accepted. Strict counts are also reported.",
+    "Non-CJK groups are ignored. Unsupported references (e.g. NDL Han numerals annotated as Arabic digits) are excluded, not model errors. Whole-sentence denominators exclude sentences with unsupported references.",
+    "Mismatch is annotation disagreement, not always a proven mistake: alternative valid readings (e.g. nihon/nippon), old orthography and noisy NDL annotations remain.",
+    "KWDLC analyses were manually corrected. NDL matches Braille against dictionary-generated candidates, including IPA; it is not wholly independent of this library's IPADIC data.",
+    "Boundary-sensitive Latin compares identical selected kana across separate/merged spans; apostrophe differences can be valid with spaces. Extra unknown markers isolate lost cross-word kana formatting.",
+    "For every sentence the JVM auditor asserted full ParseResult equality at cache 0, reused cache 256 and immediate warm cache 256, plus ASCII output.",
+    "These Web/literary corpora are not a lyrics test set or independent kana-to-ASCII formatter gold standard. Data and errors remain local-only build outputs; release packs were not changed."
+  ],
+  "summary": {
+    "kwdlc": {
+      "sentences": 2159,
+      "format_boundary_sensitive_sentences": 504,
+      "extra_unknown_markers_from_word_formatting": 295,
+      "cjk_groups": 28215,
+      "cjk_matched": 27332,
+      "strict_cjk_matched": 26427,
+      "han_groups": 12760,
+      "han_matched": 11915,
+      "strict_han_matched": 11908,
+      "han_unknown": 17,
+      "han_ambiguous": 106,
+      "han_single_span_groups": 11510,
+      "non_cjk_groups_ignored": 4745,
+      "han_sentence_total": 2148,
+      "han_sentence_matched": 1564,
+      "cjk_sentence_total": 2148,
+      "cjk_sentence_matched": 1540,
+      "han_single_span_wrong": 688,
+      "wrong_single_span_with_reference_candidate": 524,
+      "wrong_single_span_with_reference_in_ambiguity_window": 42,
+      "han_wrong_resolved": 763,
+      "groups_excluded_non_kana_reference": 11,
+      "sentences_with_excluded_reference": 11,
+      "han_group_match_percent": 93.3777,
+      "cjk_sentence_match_percent": 71.6946
+    },
+    "ndl": {
+      "sentences": 3423,
+      "format_boundary_sensitive_sentences": 1541,
+      "extra_unknown_markers_from_word_formatting": 1404,
+      "cjk_groups": 63920,
+      "cjk_matched": 60275,
+      "strict_cjk_matched": 56493,
+      "han_groups": 23013,
+      "han_matched": 20353,
+      "strict_han_matched": 17506,
+      "han_unknown": 342,
+      "han_ambiguous": 321,
+      "han_wrong_resolved": 2167,
+      "han_single_span_groups": 21433,
+      "non_cjk_groups_ignored": 8931,
+      "han_sentence_total": 2956,
+      "han_sentence_matched": 1644,
+      "cjk_sentence_total": 2956,
+      "cjk_sentence_matched": 1263,
+      "han_single_span_wrong": 1784,
+      "wrong_single_span_with_reference_candidate": 858,
+      "wrong_single_span_with_reference_in_ambiguity_window": 90,
+      "groups_excluded_non_kana_reference": 646,
+      "sentences_with_excluded_reference": 467,
+      "han_group_match_percent": 88.4413,
+      "cjk_sentence_match_percent": 42.7267
+    }
+  },
+  "common_disagreements": {
+    "kwdlc": [
+      {
+        "surface": "年",
+        "reference": "ねん",
+        "selected": "とし",
+        "occurrences": 80
+      },
+      {
+        "surface": "月",
+        "reference": "がつ",
+        "selected": "つき",
+        "occurrences": 80
+      },
+      {
+        "surface": "方",
+        "reference": "かた",
+        "selected": "ほう",
+        "occurrences": 58
+      },
+      {
+        "surface": "日本",
+        "reference": "にほん",
+        "selected": "にっぽん",
+        "occurrences": 43
+      },
+      {
+        "surface": "日",
+        "reference": "にち",
+        "selected": "ひ",
+        "occurrences": 28
+      },
+      {
+        "surface": "日",
+        "reference": "か",
+        "selected": "ひ",
+        "occurrences": 12
+      },
+      {
+        "surface": "歳",
+        "reference": "さい",
+        "selected": "とし",
+        "occurrences": 9
+      },
+      {
+        "surface": "一",
+        "reference": "いっ",
+        "selected": "いち",
+        "occurrences": 9
+      },
+      {
+        "surface": "町",
+        "reference": "ちょう",
+        "selected": "まち",
+        "occurrences": 9
+      },
+      {
+        "surface": "一",
+        "reference": "ひと",
+        "selected": "いち",
+        "occurrences": 7
+      },
+      {
+        "surface": "人",
+        "reference": "にん",
+        "selected": "ひと",
+        "occurrences": 7
+      },
+      {
+        "surface": "犬",
+        "reference": "けん",
+        "selected": "いぬ",
+        "occurrences": 6
+      },
+      {
+        "surface": "時",
+        "reference": "じ",
+        "selected": "とき",
+        "occurrences": 6
+      },
+      {
+        "surface": "明日",
+        "reference": "あす",
+        "selected": "あした",
+        "occurrences": 6
+      },
+      {
+        "surface": "会社",
+        "reference": "がいしゃ",
+        "selected": "かいしゃ",
+        "occurrences": 6
+      },
+      {
+        "surface": "人",
+        "reference": "り",
+        "selected": "にん",
+        "occurrences": 5
+      },
+      {
+        "surface": "分",
+        "reference": "ふん",
+        "selected": "ぶん",
+        "occurrences": 5
+      },
+      {
+        "surface": "地",
+        "reference": "じ",
+        "selected": "ち",
+        "occurrences": 5
+      },
+      {
+        "surface": "日",
+        "reference": "たち",
+        "selected": "にち",
+        "occurrences": 5
+      },
+      {
+        "surface": "所",
+        "reference": "じょ",
+        "selected": "しょ",
+        "occurrences": 4
+      }
+    ],
+    "ndl": [
+      {
+        "surface": "二人",
+        "reference": "ふたり",
+        "selected": "ににん",
+        "occurrences": 58
+      },
+      {
+        "surface": "一人",
+        "reference": "ひとり",
+        "selected": "いちにん",
+        "occurrences": 43
+      },
+      {
+        "surface": "云っ",
+        "reference": "いっ",
+        "selected": "ゆっ",
+        "occurrences": 35
+      },
+      {
+        "surface": "間",
+        "reference": "あいだ",
+        "selected": "ま",
+        "occurrences": 33
+      },
+      {
+        "surface": "何",
+        "reference": "なん",
+        "selected": "なに",
+        "occurrences": 28
+      },
+      {
+        "surface": "日本",
+        "reference": "にほん",
+        "selected": "にっぽん",
+        "occurrences": 25
+      },
+      {
+        "surface": "私",
+        "reference": "わたくし",
+        "selected": "わたし",
+        "occurrences": 24
+      },
+      {
+        "surface": "阿闍利",
+        "reference": "あじゃり",
+        "selected": null,
+        "occurrences": 16
+      },
+      {
+        "surface": "八",
+        "reference": "や",
+        "selected": "はち",
+        "occurrences": 15
+      },
+      {
+        "surface": "夜",
+        "reference": "よ",
+        "selected": "よる",
+        "occurrences": 14
+      },
+      {
+        "surface": "得る",
+        "reference": "うる",
+        "selected": "える",
+        "occurrences": 13
+      },
+      {
+        "surface": "飜訳",
+        "reference": "ほんやく",
+        "selected": null,
+        "occurrences": 12
+      },
+      {
+        "surface": "金",
+        "reference": "かね",
+        "selected": "きん",
+        "occurrences": 12
+      },
+      {
+        "surface": "或",
+        "reference": "あ",
+        "selected": "ある",
+        "occurrences": 12
+      },
+      {
+        "surface": "外",
+        "reference": "ほか",
+        "selected": "そと",
+        "occurrences": 11
+      },
+      {
+        "surface": "豊",
+        "reference": "とよ",
+        "selected": "ゆたか",
+        "occurrences": 11
+      },
+      {
+        "surface": "家",
+        "reference": "うち",
+        "selected": "いえ",
+        "occurrences": 10
+      },
+      {
+        "surface": "好い",
+        "reference": "いい",
+        "selected": "よい",
+        "occurrences": 10
+      },
+      {
+        "surface": "他",
+        "reference": "ほか",
+        "selected": "た",
+        "occurrences": 10
+      },
+      {
+        "surface": "今日",
+        "reference": "こんにち",
+        "selected": "きょう",
+        "occurrences": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,1596 @@
+{
+  "role": "performance-validation-only",
+  "provenance": {
+    "0.1.6": {
+      "device": "Xiaomi 2211133C",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "build": "Xiaomi/fuxi/fuxi:16/BP2A.250605.031.A3/OS3.0.308.0.WMCCNXM:user/release-keys",
+      "corpusSha256": "fbdbbcdec94e5dab4012f0e00373b3d5585bb84fd8ed905458e48cf4ec8c6004",
+      "runtimeSourcesSha256": "e829f76fd3e98eace3f881f5f2e5e0e48a7e53b9a57644e51e70eec196863468",
+      "packManifest": [
+        {
+          "schema": 1,
+          "module": "data-mandarin",
+          "upstream": {
+            "Unihan-17.0.0.zip": {
+              "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+              "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "CedPane.tsv": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/cedpane.tsv",
+              "sha256": "61789186ffe828274be650266d36e7fe41bd4b147877555ec7980328225cd3f3",
+              "license": "LicenseRef-CedPane-PublicDomain",
+              "role": "redistribute"
+            },
+            "McBopomofo-BPMFMappings.txt": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/BPMFMappings.txt",
+              "sha256": "394f3946754ebdd9d5e503f0f94c6977e5e19bd7cab21b4b18a6ea0167e00171",
+              "license": "MIT AND BSD-3-Clause",
+              "role": "redistribute"
+            },
+            "Unicode-LICENSE.txt": {
+              "url": "https://www.unicode.org/license.txt",
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "CedPane-LICENSE.txt": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/LICENSE",
+              "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+              "license": "Unlicense",
+              "role": "redistribute"
+            },
+            "CedPane-README.md": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/README.md",
+              "sha256": "3fffde19f9d20000b6f554fd36bb1c120abe4459b9a3d29f89411be8e8f7bc43",
+              "license": "LicenseRef-CedPane-Readme",
+              "role": "redistribute"
+            },
+            "McBopomofo-LICENSE.txt": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/LICENSE.txt",
+              "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72",
+              "license": "MIT",
+              "role": "redistribute"
+            },
+            "McBopomofo-Data-README.md": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/README.md",
+              "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e",
+              "license": "MIT",
+              "role": "redistribute"
+            },
+            "libtabe-tsi-COPYING.txt": {
+              "url": "https://raw.githubusercontent.com/kcwu/libtabe/ea382a829c916f2cceda2022afdf8e8471e6e7b5/tsi-src/COPYING",
+              "sha256": "efe0869f6626da81c78537da381117fe64cfe24ac50d2f2b702d90d6d9a81bd4",
+              "license": "BSD-3-Clause",
+              "role": "redistribute"
+            }
+          },
+          "owned": {
+            "common-polyphones.tsv": {
+              "source_id": "accompanist-common-polyphones",
+              "author": "Accompanist contributors",
+              "license": "Apache-2.0",
+              "role": "redistribute",
+              "version": 3,
+              "admitted": "2026-10-06",
+              "sha256": "4106448d278666cab6e00a34e33a41780f2e1c4599aef12d5ea58071c4e54e23",
+              "entries": {
+                "zh-CN": 135,
+                "zh-TW": 78,
+                "ja-JP": 26
+              },
+              "method": "Manually authored, explicitly reviewed release additions; regression overlap disclosed in the project NOTICE",
+              "changes": "Added 26 manually authored nominal calendar readings, with both readings of 一日 retained at equal cost. Chinese v2 entries are unchanged. Japanese entries use pinned IPADIC ordinary-noun connection IDs 1285; no corpus sentences, annotations or dictionary data were imported into this owned source."
+            }
+          },
+          "licenses": {
+            "unicode/LICENSE": {
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+            },
+            "cedpane/LICENSE": {
+              "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+            },
+            "cedpane/README.md": {
+              "sha256": "3fffde19f9d20000b6f554fd36bb1c120abe4459b9a3d29f89411be8e8f7bc43"
+            },
+            "mcbopomofo/LICENSE": {
+              "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72"
+            },
+            "mcbopomofo/DATA-README.md": {
+              "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e"
+            },
+            "libtabe/COPYING": {
+              "sha256": "efe0869f6626da81c78537da381117fe64cfe24ac50d2f2b702d90d6d9a81bd4"
+            }
+          },
+          "packs": [
+            {
+              "file": "zh-CN.lpd",
+              "surfaces": 128467,
+              "variants": 139419,
+              "bytes": 5260805,
+              "sha256": "11d52eae3714f9793b315711db0945b19698a7a07694f225b653f08147e06281"
+            },
+            {
+              "file": "zh-TW.lpd",
+              "surfaces": 184362,
+              "variants": 198642,
+              "bytes": 7433721,
+              "sha256": "246d03591ec3e45cf9db722f95c81e3943aedd0df8174f16c489e1ce55220cea"
+            }
+          ]
+        },
+        {
+          "schema": 1,
+          "module": "data-cantonese",
+          "upstream": {
+            "Unihan-17.0.0.zip": {
+              "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+              "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "rime-cantonese.zip": {
+              "url": "https://codeload.github.com/rime/rime-cantonese/zip/259f0e48bba840c3a2e0d117539e96937f3d89bc",
+              "sha256": "9ef08e9529e2afbd9b0f84917e5194d8e7e00808cddcb4769fd91e5df13ef96f",
+              "license": "CC-BY-4.0",
+              "role": "redistribute"
+            },
+            "Unicode-LICENSE.txt": {
+              "url": "https://www.unicode.org/license.txt",
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            }
+          },
+          "owned": {},
+          "licenses": {
+            "unicode/LICENSE": {
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+            },
+            "rime-cantonese/LICENSE": {
+              "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+            },
+            "rime-cantonese/README.md": {
+              "sha256": "cacf63550dbae0c9056360c6e2f6df74e4e58cc9b676a3859d0816b9d2fee92c"
+            }
+          },
+          "packs": [
+            {
+              "file": "yue-HK.lpd",
+              "surfaces": 133394,
+              "variants": 142505,
+              "bytes": 5552519,
+              "sha256": "f5d05ac73ca236287cb8a2aac9c09e356180b9f86818217de4200c5669fb3611"
+            }
+          ]
+        },
+        {
+          "schema": 1,
+          "module": "data-japanese",
+          "upstream": {
+            "mecab.zip": {
+              "url": "https://codeload.github.com/taku910/mecab/zip/61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+              "sha256": "cb654df442350c9913f29a00778aa162cdfcf39ed29c21ab4cdd2e20de0a2cba",
+              "license": "LicenseRef-NAIST-ICOT",
+              "role": "redistribute"
+            }
+          },
+          "owned": {
+            "common-polyphones.tsv": {
+              "source_id": "accompanist-common-polyphones",
+              "author": "Accompanist contributors",
+              "license": "Apache-2.0",
+              "role": "redistribute",
+              "version": 3,
+              "admitted": "2026-10-06",
+              "sha256": "4106448d278666cab6e00a34e33a41780f2e1c4599aef12d5ea58071c4e54e23",
+              "entries": {
+                "zh-CN": 135,
+                "zh-TW": 78,
+                "ja-JP": 26
+              },
+              "method": "Manually authored, explicitly reviewed release additions; regression overlap disclosed in the project NOTICE",
+              "changes": "Added 26 manually authored nominal calendar readings, with both readings of 一日 retained at equal cost. Chinese v2 entries are unchanged. Japanese entries use pinned IPADIC ordinary-noun connection IDs 1285; no corpus sentences, annotations or dictionary data were imported into this owned source."
+            }
+          },
+          "licenses": {
+            "ipadic/COPYING": {
+              "sha256": "fca02d9adb601d101eccdf3131119abfff2d9c825ef5c759d7a89ebbaa972099"
+            }
+          },
+          "packs": [
+            {
+              "file": "ja-JP.lpd",
+              "surfaces": 325787,
+              "variants": 391887,
+              "bytes": 17829073,
+              "sha256": "26000679cb26a8308f57699f1e036c658ccafbb0c45c48ad28cfa59f347c38dd"
+            }
+          ]
+        }
+      ],
+      "libraryVersion": "0.1.6",
+      "apkSha256": "3ca736e0397a08c4679f7fcfce1420d548bf651c11c84142c12ebce2681818d7",
+      "versionProvenance": "Source-build snapshot saved before changes; old instrumentation did not embed library version."
+    },
+    "0.1.8": {
+      "device": "Xiaomi 2211133C",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "build": "Xiaomi/fuxi/fuxi:16/BP2A.250605.031.A3/OS3.0.308.0.WMCCNXM:user/release-keys",
+      "corpusSha256": "fbdbbcdec94e5dab4012f0e00373b3d5585bb84fd8ed905458e48cf4ec8c6004",
+      "runtimeSourcesSha256": "4c9cd4c03e6c37150394ba3b6698bc1d43d934baf40ba08ab7fa1e942925863e",
+      "packManifest": [
+        {
+          "schema": 1,
+          "module": "data-mandarin",
+          "upstream": {
+            "Unihan-17.0.0.zip": {
+              "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+              "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "CedPane.tsv": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/cedpane.tsv",
+              "sha256": "61789186ffe828274be650266d36e7fe41bd4b147877555ec7980328225cd3f3",
+              "license": "LicenseRef-CedPane-PublicDomain",
+              "role": "redistribute"
+            },
+            "McBopomofo-BPMFMappings.txt": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/BPMFMappings.txt",
+              "sha256": "394f3946754ebdd9d5e503f0f94c6977e5e19bd7cab21b4b18a6ea0167e00171",
+              "license": "MIT AND BSD-3-Clause",
+              "role": "redistribute"
+            },
+            "Unicode-LICENSE.txt": {
+              "url": "https://www.unicode.org/license.txt",
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "CedPane-LICENSE.txt": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/LICENSE",
+              "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+              "license": "Unlicense",
+              "role": "redistribute"
+            },
+            "CedPane-README.md": {
+              "url": "https://raw.githubusercontent.com/ssb22/CedPane/bcc2c145da6fa0e03191f0d49ea193f28d924061/README.md",
+              "sha256": "3fffde19f9d20000b6f554fd36bb1c120abe4459b9a3d29f89411be8e8f7bc43",
+              "license": "LicenseRef-CedPane-Readme",
+              "role": "redistribute"
+            },
+            "McBopomofo-LICENSE.txt": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/LICENSE.txt",
+              "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72",
+              "license": "MIT",
+              "role": "redistribute"
+            },
+            "McBopomofo-Data-README.md": {
+              "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/README.md",
+              "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e",
+              "license": "MIT",
+              "role": "redistribute"
+            },
+            "libtabe-tsi-COPYING.txt": {
+              "url": "https://raw.githubusercontent.com/kcwu/libtabe/ea382a829c916f2cceda2022afdf8e8471e6e7b5/tsi-src/COPYING",
+              "sha256": "efe0869f6626da81c78537da381117fe64cfe24ac50d2f2b702d90d6d9a81bd4",
+              "license": "BSD-3-Clause",
+              "role": "redistribute"
+            }
+          },
+          "owned": {
+            "common-polyphones.tsv": {
+              "source_id": "accompanist-common-polyphones",
+              "author": "Accompanist contributors",
+              "license": "Apache-2.0",
+              "role": "redistribute",
+              "version": 3,
+              "admitted": "2026-10-06",
+              "sha256": "4106448d278666cab6e00a34e33a41780f2e1c4599aef12d5ea58071c4e54e23",
+              "entries": {
+                "zh-CN": 135,
+                "zh-TW": 78,
+                "ja-JP": 26
+              },
+              "method": "Manually authored, explicitly reviewed release additions; regression overlap disclosed in the project NOTICE",
+              "changes": "Added 26 manually authored nominal calendar readings, with both readings of 一日 retained at equal cost. Chinese v2 entries are unchanged. Japanese entries use pinned IPADIC ordinary-noun connection IDs 1285; no corpus sentences, annotations or dictionary data were imported into this owned source."
+            }
+          },
+          "licenses": {
+            "unicode/LICENSE": {
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+            },
+            "cedpane/LICENSE": {
+              "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+            },
+            "cedpane/README.md": {
+              "sha256": "3fffde19f9d20000b6f554fd36bb1c120abe4459b9a3d29f89411be8e8f7bc43"
+            },
+            "mcbopomofo/LICENSE": {
+              "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72"
+            },
+            "mcbopomofo/DATA-README.md": {
+              "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e"
+            },
+            "libtabe/COPYING": {
+              "sha256": "efe0869f6626da81c78537da381117fe64cfe24ac50d2f2b702d90d6d9a81bd4"
+            }
+          },
+          "packs": [
+            {
+              "file": "zh-CN.lpd",
+              "surfaces": 128467,
+              "variants": 139419,
+              "bytes": 5260805,
+              "sha256": "11d52eae3714f9793b315711db0945b19698a7a07694f225b653f08147e06281"
+            },
+            {
+              "file": "zh-TW.lpd",
+              "surfaces": 184362,
+              "variants": 198642,
+              "bytes": 7433721,
+              "sha256": "246d03591ec3e45cf9db722f95c81e3943aedd0df8174f16c489e1ce55220cea"
+            }
+          ]
+        },
+        {
+          "schema": 1,
+          "module": "data-cantonese",
+          "upstream": {
+            "Unihan-17.0.0.zip": {
+              "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+              "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            },
+            "rime-cantonese.zip": {
+              "url": "https://codeload.github.com/rime/rime-cantonese/zip/259f0e48bba840c3a2e0d117539e96937f3d89bc",
+              "sha256": "9ef08e9529e2afbd9b0f84917e5194d8e7e00808cddcb4769fd91e5df13ef96f",
+              "license": "CC-BY-4.0",
+              "role": "redistribute"
+            },
+            "Unicode-LICENSE.txt": {
+              "url": "https://www.unicode.org/license.txt",
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+              "license": "Unicode-3.0",
+              "role": "redistribute"
+            }
+          },
+          "owned": {},
+          "licenses": {
+            "unicode/LICENSE": {
+              "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+            },
+            "rime-cantonese/LICENSE": {
+              "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+            },
+            "rime-cantonese/README.md": {
+              "sha256": "cacf63550dbae0c9056360c6e2f6df74e4e58cc9b676a3859d0816b9d2fee92c"
+            }
+          },
+          "packs": [
+            {
+              "file": "yue-HK.lpd",
+              "surfaces": 133394,
+              "variants": 142505,
+              "bytes": 5552519,
+              "sha256": "f5d05ac73ca236287cb8a2aac9c09e356180b9f86818217de4200c5669fb3611"
+            }
+          ]
+        },
+        {
+          "schema": 1,
+          "module": "data-japanese",
+          "upstream": {
+            "mecab.zip": {
+              "url": "https://codeload.github.com/taku910/mecab/zip/61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+              "sha256": "cb654df442350c9913f29a00778aa162cdfcf39ed29c21ab4cdd2e20de0a2cba",
+              "license": "LicenseRef-NAIST-ICOT",
+              "role": "redistribute"
+            }
+          },
+          "owned": {
+            "common-polyphones.tsv": {
+              "source_id": "accompanist-common-polyphones",
+              "author": "Accompanist contributors",
+              "license": "Apache-2.0",
+              "role": "redistribute",
+              "version": 3,
+              "admitted": "2026-10-06",
+              "sha256": "4106448d278666cab6e00a34e33a41780f2e1c4599aef12d5ea58071c4e54e23",
+              "entries": {
+                "zh-CN": 135,
+                "zh-TW": 78,
+                "ja-JP": 26
+              },
+              "method": "Manually authored, explicitly reviewed release additions; regression overlap disclosed in the project NOTICE",
+              "changes": "Added 26 manually authored nominal calendar readings, with both readings of 一日 retained at equal cost. Chinese v2 entries are unchanged. Japanese entries use pinned IPADIC ordinary-noun connection IDs 1285; no corpus sentences, annotations or dictionary data were imported into this owned source."
+            }
+          },
+          "licenses": {
+            "ipadic/COPYING": {
+              "sha256": "fca02d9adb601d101eccdf3131119abfff2d9c825ef5c759d7a89ebbaa972099"
+            }
+          },
+          "packs": [
+            {
+              "file": "ja-JP.lpd",
+              "surfaces": 325787,
+              "variants": 391887,
+              "bytes": 17829073,
+              "sha256": "26000679cb26a8308f57699f1e036c658ccafbb0c45c48ad28cfa59f347c38dd"
+            }
+          ],
+          "derived_metadata": {
+            "path": "data-japanese/src/commonMain/kotlin/com/mocharealm/accompanist/lyrics/phonetics/data/IpadicLexicon.kt",
+            "sha256": "a75d7b3f25f54ba0346cf3dd66ce4fb0608cc9a20e275b03ee2aa5b71338de1b",
+            "source": "ipadic",
+            "license": "LicenseRef-NAIST-ICOT",
+            "license_path": "ipadic/COPYING",
+            "changes": "Compact context-ID POS categories and attributive-inflection bitmap derived from the pinned IPADIC CSVs; no parser code or validation data imported."
+          }
+        }
+      ],
+      "libraryVersion": "0.1.8",
+      "apkSha256": "c77e568184119ee3df96e54a601c67038e61bf12d273065aedbe8ae603147f8e"
+    }
+  },
+  "runs": [
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791299656102,
+      "memoryBefore": {
+        "pssKb": 29828,
+        "javaHeapUsed": 37515304,
+        "nativeHeapAllocated": 14840672,
+        "procStatus": "VmHWM:\t  101652 kB; VmRSS:\t  101652 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 63602,
+        "javaHeapUsed": 59772336,
+        "nativeHeapAllocated": 21807152,
+        "procStatus": "VmHWM:\t  139364 kB; VmRSS:\t  139364 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 12948959,
+          "hotMedianNs": 817917,
+          "hotP95Ns": 1604739,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "3a0aeb5629653324b23fb56d5a93598700fdab05bdf67f3ef64d16f74b900f96",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791299657056,
+      "memoryBefore": {
+        "pssKb": 29717,
+        "javaHeapUsed": 37520264,
+        "nativeHeapAllocated": 14842112,
+        "procStatus": "VmHWM:\t  101632 kB; VmRSS:\t  101632 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 41993,
+        "javaHeapUsed": 44618448,
+        "nativeHeapAllocated": 14983984,
+        "procStatus": "VmHWM:\t  118224 kB; VmRSS:\t  117816 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 12581354,
+          "hotMedianNs": 146406,
+          "hotP95Ns": 786875,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "3a0aeb5629653324b23fb56d5a93598700fdab05bdf67f3ef64d16f74b900f96",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791299654105,
+      "memoryBefore": {
+        "pssKb": 29683,
+        "javaHeapUsed": 37480312,
+        "nativeHeapAllocated": 14830336,
+        "procStatus": "VmHWM:\t  101624 kB; VmRSS:\t  101624 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 52348,
+        "javaHeapUsed": 54411032,
+        "nativeHeapAllocated": 17690848,
+        "procStatus": "VmHWM:\t  128148 kB; VmRSS:\t  128148 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 9431615,
+          "hotMedianNs": 481875,
+          "hotP95Ns": 1014635,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "288bb8a0e57c7099ec1b814735e43160226158195dbec2a21170e7c8799b8696",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791299654916,
+      "memoryBefore": {
+        "pssKb": 29797,
+        "javaHeapUsed": 37497824,
+        "nativeHeapAllocated": 14840208,
+        "procStatus": "VmHWM:\t  101672 kB; VmRSS:\t  101672 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 40819,
+        "javaHeapUsed": 44078424,
+        "nativeHeapAllocated": 14895248,
+        "procStatus": "VmHWM:\t  116224 kB; VmRSS:\t  116224 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 9513646,
+          "hotMedianNs": 499219,
+          "hotP95Ns": 566823,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "288bb8a0e57c7099ec1b814735e43160226158195dbec2a21170e7c8799b8696",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791299649694,
+      "memoryBefore": {
+        "pssKb": 33164,
+        "javaHeapUsed": 37406840,
+        "nativeHeapAllocated": 14834224,
+        "procStatus": "VmHWM:\t  105704 kB; VmRSS:\t  105704 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 108389,
+        "javaHeapUsed": 104938048,
+        "nativeHeapAllocated": 22096944,
+        "procStatus": "VmHWM:\t  183408 kB; VmRSS:\t  183372 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 27517969,
+          "hotMedianNs": 659948,
+          "hotP95Ns": 1018698,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "531e317d5725a358ea0ccc4303f57c0c9f4184293fc9796b75a6ecda2ead88b9",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791299650950,
+      "memoryBefore": {
+        "pssKb": 31324,
+        "javaHeapUsed": 37427568,
+        "nativeHeapAllocated": 14898880,
+        "procStatus": "VmHWM:\t  102992 kB; VmRSS:\t  102992 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 63200,
+        "javaHeapUsed": 65701888,
+        "nativeHeapAllocated": 15027232,
+        "procStatus": "VmHWM:\t  138548 kB; VmRSS:\t  138548 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 22228021,
+          "hotMedianNs": 206771,
+          "hotP95Ns": 634115,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "531e317d5725a358ea0ccc4303f57c0c9f4184293fc9796b75a6ecda2ead88b9",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791299652166,
+      "memoryBefore": {
+        "pssKb": 30455,
+        "javaHeapUsed": 37478920,
+        "nativeHeapAllocated": 14835632,
+        "procStatus": "VmHWM:\t  104272 kB; VmRSS:\t  104272 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 65397,
+        "javaHeapUsed": 64850816,
+        "nativeHeapAllocated": 19947456,
+        "procStatus": "VmHWM:\t  141780 kB; VmRSS:\t  141780 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 14562760,
+          "hotMedianNs": 901875,
+          "hotP95Ns": 1110625,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "143a59ebb0f86bc1240009a8f713d2c59834862ba4521d16695acf3ea1a485ac",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791299653058,
+      "memoryBefore": {
+        "pssKb": 29733,
+        "javaHeapUsed": 37483872,
+        "nativeHeapAllocated": 14839680,
+        "procStatus": "VmHWM:\t  101744 kB; VmRSS:\t  101744 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 42168,
+        "javaHeapUsed": 45861768,
+        "nativeHeapAllocated": 14932240,
+        "procStatus": "VmHWM:\t  118720 kB; VmRSS:\t  117876 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 12810104,
+          "hotMedianNs": 350730,
+          "hotP95Ns": 752604,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "143a59ebb0f86bc1240009a8f713d2c59834862ba4521d16695acf3ea1a485ac",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-initial",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791303495379,
+      "memoryBefore": {
+        "pssKb": 27430,
+        "javaHeapUsed": 3370352,
+        "nativeHeapAllocated": 14321296,
+        "procStatus": "VmHWM:\t  103740 kB; VmRSS:\t  103740 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 61082,
+        "javaHeapUsed": 25627768,
+        "nativeHeapAllocated": 21238672,
+        "procStatus": "VmHWM:\t  141336 kB; VmRSS:\t  141336 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 15001146,
+          "hotMedianNs": 674740,
+          "hotP95Ns": 1480469,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "3a0aeb5629653324b23fb56d5a93598700fdab05bdf67f3ef64d16f74b900f96",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791303496373,
+      "memoryBefore": {
+        "pssKb": 27473,
+        "javaHeapUsed": 3389720,
+        "nativeHeapAllocated": 14281344,
+        "procStatus": "VmHWM:\t  103668 kB; VmRSS:\t  103668 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 39559,
+        "javaHeapUsed": 10480024,
+        "nativeHeapAllocated": 14434560,
+        "procStatus": "VmHWM:\t  120520 kB; VmRSS:\t  119300 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 17058906,
+          "hotMedianNs": 180989,
+          "hotP95Ns": 530000,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "3a0aeb5629653324b23fb56d5a93598700fdab05bdf67f3ef64d16f74b900f96",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791303493331,
+      "memoryBefore": {
+        "pssKb": 27399,
+        "javaHeapUsed": 3352312,
+        "nativeHeapAllocated": 14282976,
+        "procStatus": "VmHWM:\t  103040 kB; VmRSS:\t  103040 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 49917,
+        "javaHeapUsed": 20287288,
+        "nativeHeapAllocated": 17131696,
+        "procStatus": "VmHWM:\t  129432 kB; VmRSS:\t  129432 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 9191355,
+          "hotMedianNs": 503698,
+          "hotP95Ns": 1025208,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "288bb8a0e57c7099ec1b814735e43160226158195dbec2a21170e7c8799b8696",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791303494168,
+      "memoryBefore": {
+        "pssKb": 27598,
+        "javaHeapUsed": 3369168,
+        "nativeHeapAllocated": 14281328,
+        "procStatus": "VmHWM:\t  103760 kB; VmRSS:\t  103760 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 38580,
+        "javaHeapUsed": 9945184,
+        "nativeHeapAllocated": 14332048,
+        "procStatus": "VmHWM:\t  117908 kB; VmRSS:\t  117908 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 8913438,
+          "hotMedianNs": 487917,
+          "hotP95Ns": 548958,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "288bb8a0e57c7099ec1b814735e43160226158195dbec2a21170e7c8799b8696",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791303488723,
+      "memoryBefore": {
+        "pssKb": 27788,
+        "javaHeapUsed": 3273336,
+        "nativeHeapAllocated": 14276976,
+        "procStatus": "VmHWM:\t  106864 kB; VmRSS:\t  106864 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 104644,
+        "javaHeapUsed": 70820928,
+        "nativeHeapAllocated": 21539472,
+        "procStatus": "VmHWM:\t  187132 kB; VmRSS:\t  187120 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 14236250,
+          "hotMedianNs": 664791,
+          "hotP95Ns": 1015520,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "531e317d5725a358ea0ccc4303f57c0c9f4184293fc9796b75a6ecda2ead88b9",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791303490017,
+      "memoryBefore": {
+        "pssKb": 27579,
+        "javaHeapUsed": 3307688,
+        "nativeHeapAllocated": 14283968,
+        "procStatus": "VmHWM:\t  103324 kB; VmRSS:\t  103324 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 59644,
+        "javaHeapUsed": 31577696,
+        "nativeHeapAllocated": 14477184,
+        "procStatus": "VmHWM:\t  139380 kB; VmRSS:\t  139380 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 13543906,
+          "hotMedianNs": 188490,
+          "hotP95Ns": 572083,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "531e317d5725a358ea0ccc4303f57c0c9f4184293fc9796b75a6ecda2ead88b9",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791303491311,
+      "memoryBefore": {
+        "pssKb": 27059,
+        "javaHeapUsed": 3325848,
+        "nativeHeapAllocated": 14281408,
+        "procStatus": "VmHWM:\t  102820 kB; VmRSS:\t  102820 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 62836,
+        "javaHeapUsed": 30692984,
+        "nativeHeapAllocated": 19389584,
+        "procStatus": "VmHWM:\t  142424 kB; VmRSS:\t  142424 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 10032917,
+          "hotMedianNs": 872500,
+          "hotP95Ns": 1112135,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "143a59ebb0f86bc1240009a8f713d2c59834862ba4521d16695acf3ea1a485ac",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791303492229,
+      "memoryBefore": {
+        "pssKb": 27234,
+        "javaHeapUsed": 3351536,
+        "nativeHeapAllocated": 14281136,
+        "procStatus": "VmHWM:\t  102796 kB; VmRSS:\t  102796 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 39545,
+        "javaHeapUsed": 11717264,
+        "nativeHeapAllocated": 14360000,
+        "procStatus": "VmHWM:\t  121552 kB; VmRSS:\t  119004 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 9759427,
+          "hotMedianNs": 526407,
+          "hotP95Ns": 777864,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "143a59ebb0f86bc1240009a8f713d2c59834862ba4521d16695acf3ea1a485ac",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "batch": "baseline-repeat",
+      "libraryVersion": "0.1.6",
+      "phaseMode": false
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304478184,
+      "memoryBefore": {
+        "pssKb": 27805,
+        "javaHeapUsed": 3784248,
+        "nativeHeapAllocated": 14293632,
+        "procStatus": "VmHWM:\t  103176 kB; VmRSS:\t  103176 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 62527,
+        "javaHeapUsed": 26734616,
+        "nativeHeapAllocated": 21257312,
+        "procStatus": "VmHWM:\t  142008 kB; VmRSS:\t  142008 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 10533438,
+          "hotMedianNs": 899115,
+          "hotP95Ns": 1775833,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "7d23f15b8b927a454f71c47858ce150d63684e22f090cca97226999a310d2821",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304479158,
+      "memoryBefore": {
+        "pssKb": 27651,
+        "javaHeapUsed": 3785184,
+        "nativeHeapAllocated": 14294000,
+        "procStatus": "VmHWM:\t  102528 kB; VmRSS:\t  102528 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 40877,
+        "javaHeapUsed": 11515096,
+        "nativeHeapAllocated": 14436576,
+        "procStatus": "VmHWM:\t  120440 kB; VmRSS:\t  119732 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 10663489,
+          "hotMedianNs": 224479,
+          "hotP95Ns": 646354,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "7d23f15b8b927a454f71c47858ce150d63684e22f090cca97226999a310d2821",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304475929,
+      "memoryBefore": {
+        "pssKb": 27820,
+        "javaHeapUsed": 3745712,
+        "nativeHeapAllocated": 14285312,
+        "procStatus": "VmHWM:\t  103284 kB; VmRSS:\t  103284 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 50811,
+        "javaHeapUsed": 21025816,
+        "nativeHeapAllocated": 17133744,
+        "procStatus": "VmHWM:\t  130064 kB; VmRSS:\t  130064 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 10826458,
+          "hotMedianNs": 502865,
+          "hotP95Ns": 1079479,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "6a7514928ed94b2a6526e61128a23ac782b0a1f0ea8ae4495ba2dde1b6c60974",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304476826,
+      "memoryBefore": {
+        "pssKb": 27849,
+        "javaHeapUsed": 3763416,
+        "nativeHeapAllocated": 14293536,
+        "procStatus": "VmHWM:\t  102800 kB; VmRSS:\t  102800 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 39533,
+        "javaHeapUsed": 10655880,
+        "nativeHeapAllocated": 14340144,
+        "procStatus": "VmHWM:\t  118148 kB; VmRSS:\t  118148 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 10603229,
+          "hotMedianNs": 557969,
+          "hotP95Ns": 661458,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "6a7514928ed94b2a6526e61128a23ac782b0a1f0ea8ae4495ba2dde1b6c60974",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304471093,
+      "memoryBefore": {
+        "pssKb": 27962,
+        "javaHeapUsed": 3713696,
+        "nativeHeapAllocated": 14287280,
+        "procStatus": "VmHWM:\t  103504 kB; VmRSS:\t  103504 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 107584,
+        "javaHeapUsed": 73104208,
+        "nativeHeapAllocated": 21545632,
+        "procStatus": "VmHWM:\t  186312 kB; VmRSS:\t  186312 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 21130416,
+          "hotMedianNs": 906667,
+          "hotP95Ns": 1450573,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "c7b91acb44c4694b5bda2aa96fba42dacc3aea229027d27045cac04b4dee1e50",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304472525,
+      "memoryBefore": {
+        "pssKb": 27828,
+        "javaHeapUsed": 3710328,
+        "nativeHeapAllocated": 14279072,
+        "procStatus": "VmHWM:\t  102680 kB; VmRSS:\t  102680 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 62367,
+        "javaHeapUsed": 33799832,
+        "nativeHeapAllocated": 14489104,
+        "procStatus": "VmHWM:\t  141096 kB; VmRSS:\t  141096 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 14987969,
+          "hotMedianNs": 305625,
+          "hotP95Ns": 777135,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "c7b91acb44c4694b5bda2aa96fba42dacc3aea229027d27045cac04b4dee1e50",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304473877,
+      "memoryBefore": {
+        "pssKb": 27748,
+        "javaHeapUsed": 3732016,
+        "nativeHeapAllocated": 14279120,
+        "procStatus": "VmHWM:\t  102848 kB; VmRSS:\t  102848 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 63983,
+        "javaHeapUsed": 31562944,
+        "nativeHeapAllocated": 19390640,
+        "procStatus": "VmHWM:\t  142916 kB; VmRSS:\t  142916 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 10938906,
+          "hotMedianNs": 974427,
+          "hotP95Ns": 1228906,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "e20b3d322de9c27d8706380b7d698077ea0618fc31ec4ec917121c976ad8e9e3",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304474770,
+      "memoryBefore": {
+        "pssKb": 27895,
+        "javaHeapUsed": 3745224,
+        "nativeHeapAllocated": 14292912,
+        "procStatus": "VmHWM:\t  103656 kB; VmRSS:\t  103656 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 40515,
+        "javaHeapUsed": 12525400,
+        "nativeHeapAllocated": 14375360,
+        "procStatus": "VmHWM:\t  123092 kB; VmRSS:\t  119948 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 10274062,
+          "hotMedianNs": 562239,
+          "hotP95Ns": 914531,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "e20b3d322de9c27d8706380b7d698077ea0618fc31ec4ec917121c976ad8e9e3",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": false,
+      "batch": "current",
+      "libraryVersion": "0.1.8"
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304497736,
+      "memoryBefore": {
+        "pssKb": 27744,
+        "javaHeapUsed": 3874024,
+        "nativeHeapAllocated": 14297712,
+        "procStatus": "VmHWM:\t  102680 kB; VmRSS:\t  102680 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 62497,
+        "javaHeapUsed": 26890304,
+        "nativeHeapAllocated": 21276768,
+        "procStatus": "VmHWM:\t  141432 kB; VmRSS:\t  141432 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 6947136,
+          "hotMedianNs": 900000,
+          "hotP95Ns": 1759427,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "7d23f15b8b927a454f71c47858ce150d63684e22f090cca97226999a310d2821",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "ja-JP",
+          "setupNs": 4215677,
+          "mapNs": 828177,
+          "headerNs": 253229,
+          "firstParseWithMappedStorageNs": 9807031,
+          "formatNs": 2555989,
+          "surfaceCount": 325787
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304498792,
+      "memoryBefore": {
+        "pssKb": 27983,
+        "javaHeapUsed": 3863624,
+        "nativeHeapAllocated": 14289280,
+        "procStatus": "VmHWM:\t  102992 kB; VmRSS:\t  102992 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 40913,
+        "javaHeapUsed": 11609192,
+        "nativeHeapAllocated": 14429152,
+        "procStatus": "VmHWM:\t  120692 kB; VmRSS:\t  119880 kB"
+      },
+      "metrics": [
+        {
+          "locale": "ja-JP",
+          "packBytes": 17829073,
+          "firstParseNs": 2080573,
+          "hotMedianNs": 226927,
+          "hotP95Ns": 654896,
+          "correct": 6,
+          "total": 6,
+          "resultSignature": "7d23f15b8b927a454f71c47858ce150d63684e22f090cca97226999a310d2821",
+          "ambiguities": 0,
+          "firstSpanCount": 1
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "ja-JP",
+          "setupNs": 4135833,
+          "mapNs": 732240,
+          "headerNs": 242709,
+          "firstParseWithMappedStorageNs": 9836719,
+          "formatNs": 2653750,
+          "surfaceCount": 325787
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304495466,
+      "memoryBefore": {
+        "pssKb": 27765,
+        "javaHeapUsed": 3855856,
+        "nativeHeapAllocated": 14290752,
+        "procStatus": "VmHWM:\t  102628 kB; VmRSS:\t  102628 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 51030,
+        "javaHeapUsed": 21197216,
+        "nativeHeapAllocated": 17157696,
+        "procStatus": "VmHWM:\t  129824 kB; VmRSS:\t  129824 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 6191250,
+          "hotMedianNs": 565521,
+          "hotP95Ns": 1212708,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "6a7514928ed94b2a6526e61128a23ac782b0a1f0ea8ae4495ba2dde1b6c60974",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "yue-HK",
+          "setupNs": 4041198,
+          "mapNs": 684427,
+          "headerNs": 232083,
+          "firstParseWithMappedStorageNs": 9419583,
+          "formatNs": 149375,
+          "surfaceCount": 133394
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304496377,
+      "memoryBefore": {
+        "pssKb": 28026,
+        "javaHeapUsed": 3856968,
+        "nativeHeapAllocated": 14295024,
+        "procStatus": "VmHWM:\t  103080 kB; VmRSS:\t  103080 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 42780,
+        "javaHeapUsed": 10760896,
+        "nativeHeapAllocated": 14350048,
+        "procStatus": "VmHWM:\t  121572 kB; VmRSS:\t  121572 kB"
+      },
+      "metrics": [
+        {
+          "locale": "yue-HK",
+          "packBytes": 5552519,
+          "firstParseNs": 752135,
+          "hotMedianNs": 556198,
+          "hotP95Ns": 663021,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "6a7514928ed94b2a6526e61128a23ac782b0a1f0ea8ae4495ba2dde1b6c60974",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "yue-HK",
+          "setupNs": 3858803,
+          "mapNs": 898177,
+          "headerNs": 253021,
+          "firstParseWithMappedStorageNs": 9536511,
+          "formatNs": 168750,
+          "surfaceCount": 133394
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304490909,
+      "memoryBefore": {
+        "pssKb": 28642,
+        "javaHeapUsed": 3799224,
+        "nativeHeapAllocated": 14290048,
+        "procStatus": "VmHWM:\t  104440 kB; VmRSS:\t  104440 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 107801,
+        "javaHeapUsed": 73308280,
+        "nativeHeapAllocated": 21567104,
+        "procStatus": "VmHWM:\t  186940 kB; VmRSS:\t  186940 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 11486458,
+          "hotMedianNs": 873750,
+          "hotP95Ns": 1339792,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "c7b91acb44c4694b5bda2aa96fba42dacc3aea229027d27045cac04b4dee1e50",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "zh-CN",
+          "setupNs": 11383958,
+          "mapNs": 675365,
+          "headerNs": 224428,
+          "firstParseWithMappedStorageNs": 14362135,
+          "formatNs": 151666,
+          "surfaceCount": 128467
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304492139,
+      "memoryBefore": {
+        "pssKb": 27926,
+        "javaHeapUsed": 3816000,
+        "nativeHeapAllocated": 14348528,
+        "procStatus": "VmHWM:\t  103008 kB; VmRSS:\t  103008 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 62404,
+        "javaHeapUsed": 33905600,
+        "nativeHeapAllocated": 14491680,
+        "procStatus": "VmHWM:\t  141464 kB; VmRSS:\t  141464 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-CN",
+          "packBytes": 5260805,
+          "firstParseNs": 1178125,
+          "hotMedianNs": 310677,
+          "hotP95Ns": 790052,
+          "correct": 12,
+          "total": 12,
+          "resultSignature": "c7b91acb44c4694b5bda2aa96fba42dacc3aea229027d27045cac04b4dee1e50",
+          "ambiguities": 10,
+          "firstSpanCount": 4
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "zh-CN",
+          "setupNs": 5218594,
+          "mapNs": 740520,
+          "headerNs": 239323,
+          "firstParseWithMappedStorageNs": 13996667,
+          "formatNs": 165052,
+          "surfaceCount": 128467
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 0,
+      "timestampMs": 1791304493445,
+      "memoryBefore": {
+        "pssKb": 27891,
+        "javaHeapUsed": 3800552,
+        "nativeHeapAllocated": 14285312,
+        "procStatus": "VmHWM:\t  102980 kB; VmRSS:\t  102980 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 64190,
+        "javaHeapUsed": 31696640,
+        "nativeHeapAllocated": 19405504,
+        "procStatus": "VmHWM:\t  143188 kB; VmRSS:\t  143188 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 6258437,
+          "hotMedianNs": 821979,
+          "hotP95Ns": 1238177,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "e20b3d322de9c27d8706380b7d698077ea0618fc31ec4ec917121c976ad8e9e3",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "zh-TW",
+          "setupNs": 3975209,
+          "mapNs": 605938,
+          "headerNs": 224948,
+          "firstParseWithMappedStorageNs": 9329584,
+          "formatNs": 118281,
+          "surfaceCount": 184362
+        }
+      ]
+    },
+    {
+      "cacheCapacity": 256,
+      "timestampMs": 1791304494390,
+      "memoryBefore": {
+        "pssKb": 27744,
+        "javaHeapUsed": 3817680,
+        "nativeHeapAllocated": 14280912,
+        "procStatus": "VmHWM:\t  102620 kB; VmRSS:\t  102620 kB"
+      },
+      "memoryAfter": {
+        "pssKb": 40617,
+        "javaHeapUsed": 12626784,
+        "nativeHeapAllocated": 14363408,
+        "procStatus": "VmHWM:\t  123072 kB; VmRSS:\t  119476 kB"
+      },
+      "metrics": [
+        {
+          "locale": "zh-TW",
+          "packBytes": 7433721,
+          "firstParseNs": 1033177,
+          "hotMedianNs": 591094,
+          "hotP95Ns": 924583,
+          "correct": 3,
+          "total": 3,
+          "resultSignature": "e20b3d322de9c27d8706380b7d698077ea0618fc31ec4ec917121c976ad8e9e3",
+          "ambiguities": 1,
+          "firstSpanCount": 2
+        }
+      ],
+      "phaseMode": true,
+      "batch": "loading-diagnostic",
+      "libraryVersion": "0.1.8",
+      "phases": [
+        {
+          "locale": "zh-TW",
+          "setupNs": 4434010,
+          "mapNs": 648958,
+          "headerNs": 248229,
+          "firstParseWithMappedStorageNs": 9823490,
+          "formatNs": 134271,
+          "surfaceCount": 184362
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Identical 24-case corpus, compiled pack bytes, device, OS and debug mode. Each run checks full ParseResult equality with cache 0; result signatures match caches 0/256. Current normal and phase-mode signatures also match.",
+    "Fresh app processes, 50 warm-up rounds and 300 samples per locale. File-system page cache, ART/JIT state, temperature and background load were not controlled. Two baseline batches show variation; these observations do not establish stable improvements.",
+    "Normal firstParseNs includes lazy pack mapping/header and parsing, excludes engine registration/setup. Diagnostic mode measures setup, mapping, standalone header, lazy parse using mapped storage and formatting in a separate process; its normal metric firstParseNs is already warm. Do not sum phases or compare that firstParseNs with normal cold runs.",
+    "Memory is observed instrumentation-process PSS/heap/RSS and includes temporary results, workspace and GC; not isolated retained dictionary memory. iOS has compile/publication validation, not runtime measurements."
+  ]
+}

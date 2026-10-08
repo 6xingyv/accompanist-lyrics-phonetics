@@ -1,0 +1,39 @@
+{
+  "device": "Xiaomi 2211133C",
+  "sdk": 36,
+  "abi": "arm64-v8a",
+  "build": "Xiaomi/fuxi/fuxi:16/BP2A.250605.031.A3/OS3.0.308.0.WMCCNXM:user/release-keys",
+  "cacheCapacity": 0,
+  "runtimeSourcesSha256": "35809d57afcf532cfaabb1f7f866c7aeae855328acf2051ba7b2926a69f449a1",
+  "corpusSha256": "fbdbbcdec94e5dab4012f0e00373b3d5585bb84fd8ed905458e48cf4ec8c6004",
+  "packManifest": "# locale\tsurfaces\tvariants\tbytes\tsha256\nzh-CN\t44367\t55308\t1463939\t2a03eb86abd2e1fb06d9223abe638c917d7dd90ad9df0a5ee4c1be5101324db1\nzh-TW\t44366\t55317\t1464085\t01bb43875a2f7f44199b5574369fff25b95b4090435b02858e0457a662688b95\nyue-HK\t133394\t142505\t5552519\tf5d05ac73ca236287cb8a2aac9c09e356180b9f86818217de4200c5669fb3611\nja-JP\t325785\t391861\t17828373\t93840847d87483423ebec4d70982da9016ddf0b8f4527b9163eaf3f41616c291\n",
+  "timestampMs": 1791277538907,
+  "memoryBefore": {
+    "pssKb": 32319,
+    "javaHeapUsed": 21661544,
+    "nativeHeapAllocated": 14591856,
+    "procStatus": "VmHWM:\t   99844 kB; VmRSS:\t   99844 kB"
+  },
+  "memoryAfter": {
+    "pssKb": 42397,
+    "javaHeapUsed": 5661800,
+    "nativeHeapAllocated": 14625664,
+    "procStatus": "VmHWM:\t  178796 kB; VmRSS:\t  120880 kB"
+  },
+  "memoryNote": "Debug build. Observed process memory includes instrumentation and workload/GC effects; not isolated pack retention. First parse is process-cold, not guaranteed filesystem-cold.",
+  "metrics": [
+    {
+      "locale": "zh-CN",
+      "packBytes": 1463939,
+      "firstParseNs": 32244428,
+      "hotMedianNs": 1144740,
+      "hotP95Ns": 6315781,
+      "correct": 12,
+      "total": 12,
+      "resultSignature": "c67b6c621c52963c94f23c36398d29f10a15052266912b83775fafd2140a1273",
+      "ambiguities": 10,
+      "firstSpanCount": 4
+    }
+  ],
+  "failures": []
+}
